@@ -3,6 +3,7 @@ const griglia = document.getElementById("main");
 const select = document.getElementById("level");
 
 button.addEventListener("click", function () {
+  griglia.innerHTML = "";
   generaGriglia();
 });
 
