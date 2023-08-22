@@ -1,6 +1,6 @@
 const button = document.getElementById("button");
 const griglia = document.getElementById("main");
-var select = document.getElementById("level");
+const select = document.getElementById("level");
 
 button.addEventListener("click", function () {
   generaGriglia();
